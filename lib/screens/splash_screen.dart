@@ -11,7 +11,7 @@ class _SplashScreenState extends State<SplashScreen2> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-        seconds: 14,
+        seconds: 5,
         navigateAfterSeconds: new Login(),
         title: new Text(
           'Propsempire',
