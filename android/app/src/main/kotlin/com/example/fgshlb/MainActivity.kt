@@ -1,4 +1,4 @@
-package com.example.fgshlb
+package com.example.propsempire
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -40,7 +40,7 @@ class _LoginState extends State<Login> {
                 primary: Colors.red, // set the background color
               ),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushNamed(context, '/home');
               }),
           Padding(
             padding: const EdgeInsets.fromLTRB(28, 10, 28, 20),

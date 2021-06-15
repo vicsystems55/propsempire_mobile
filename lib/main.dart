@@ -1,5 +1,6 @@
 import 'package:fgshlb/screens/login.dart';
 import 'package:fgshlb/screens/register.dart';
+import 'package:fgshlb/screens/home.dart';
 import 'package:fgshlb/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/login': (context) => Login(),
         '/register': (context) => Register(),
+        '/home': (context) => Home(),
       },
     );
   }
