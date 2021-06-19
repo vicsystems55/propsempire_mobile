@@ -6,6 +6,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
+import 'package:lottie/lottie.dart';
+
 class SplashScreen2 extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -53,7 +55,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
   }
 
   Widget _buildImage(String assetName, [double width = 350]) {
-    return Image.asset('assets/$assetName', width: width);
+    return Image.asset('assets/images/$assetName', width: width);
   }
 
   @override
@@ -95,14 +97,24 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Create a profile",
           body: "Register on propsempire to become an agent",
-          image: _buildImage('img1.jpg'),
+          image: Lottie.network(
+            'https://assets4.lottiefiles.com/packages/lf20_q5pk6p1k.json',
+            width: 200,
+            height: 200,
+            fit: BoxFit.fill,
+          ),
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Engage with propects",
           body:
               "Interact with potential clients with our smart communication systems",
-          image: _buildImage('img2.jpg'),
+          image: Lottie.network(
+            'https://assets6.lottiefiles.com/packages/lf20_zjjgh2aw.json',
+            width: 200,
+            height: 200,
+            fit: BoxFit.fill,
+          ),
           decoration: pageDecoration,
         ),
         // PageViewModel(

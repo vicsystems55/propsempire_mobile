@@ -28,29 +28,34 @@ class _HomeState extends State<Home> {
               decoration: BoxDecoration(
                 color: Colors.white,
               ),
-              child: Text('Drawer Header'),
+              child: Text('Propsempire'),
             ),
             Card(
               child: ListTile(
-                leading: IconData(Icons.home),
+                leading: Icon(
+                  Icons.home,
+                ),
                 title: Text('Home'),
               ),
             ),
             Card(
               child: ListTile(
-                leading: FlutterLogo(),
+                leading: Icon(
+                  Icons.home,
+                ),
                 title: Text('My Listings'),
               ),
             ),
             Card(
               child: ListTile(
-                leading: FlutterLogo(),
+                leading: Icon(Icons.notification_important),
                 title: Text('Notifications'),
               ),
             ),
           ],
         ), // Populate the Drawer in the next step.
       ),
+      body: Center(child: Text('Welcome')),
     );
   }
 }
