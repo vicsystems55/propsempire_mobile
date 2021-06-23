@@ -11,15 +11,18 @@ class _LoginState extends State<Login> {
   final passwordController = TextEditingController();
 
   login() {
+    var email = emailController.text;
+    print(email);
+    
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Lottie.network(
-            'https://assets6.lottiefiles.com/packages/lf20_x62chJ.json',
-            width: 70,
+          title: Lottie.asset(
+            'assets/images/loading.json',
+            width: 100,
             height: 100,
-            fit: BoxFit.fill,
+            fit: BoxFit.contain,
           ),
           content: Text(
             "Logging you in...",

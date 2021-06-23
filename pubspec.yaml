@@ -1,4 +1,4 @@
-name: fgshlb
+name: propsempire
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -57,6 +57,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/logo.png
+    - assets/images/profile.json
+    - assets/images/engage.json
+    - assets/images/loading.json
    
 
   # An image asset can refer to one or more resolution-specific "variants", see

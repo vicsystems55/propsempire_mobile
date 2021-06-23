@@ -1,7 +1,7 @@
-import 'package:fgshlb/screens/login.dart';
-import 'package:fgshlb/screens/register.dart';
-import 'package:fgshlb/screens/home.dart';
-import 'package:fgshlb/screens/splash_screen.dart';
+import 'package:propsempire/screens/login.dart';
+import 'package:propsempire/screens/register.dart';
+import 'package:propsempire/screens/home.dart';
+import 'package:propsempire/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

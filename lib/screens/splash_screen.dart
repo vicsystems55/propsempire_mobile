@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fgshlb/screens/login.dart';
+import 'package:propsempire/screens/login.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 import 'package:flutter/foundation.dart';
@@ -97,8 +97,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Create a profile",
           body: "Register on propsempire to become an agent",
-          image: Lottie.network(
-            'https://assets4.lottiefiles.com/packages/lf20_q5pk6p1k.json',
+          image: Lottie.asset(
+            'assets/images/profile.json',
             width: 200,
             height: 200,
             fit: BoxFit.fill,
@@ -109,8 +109,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           title: "Engage with propects",
           body:
               "Interact with potential clients with our smart communication systems",
-          image: Lottie.network(
-            'https://assets6.lottiefiles.com/packages/lf20_zjjgh2aw.json',
+          image: Lottie.asset(
+            'assets/images/engage.json',
             width: 200,
             height: 200,
             fit: BoxFit.fill,
